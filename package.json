@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "lint": "textlint docs/README.md"
+    "lint": "textlint docs/README.md",
+    "build:pdf": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js"
   },
   "devDependencies": {
     "@proofdict/textlint-rule-proofdict": "^3.1.2",
