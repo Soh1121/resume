@@ -43,7 +43,7 @@
 	<img alt="Laravel" src="https://img.shields.io/badge/-Laravel-FF2D20.svg?logo=laravel&style=popout&logoColor=white" />
 	<img alt="pandas" src="https://img.shields.io/badge/-pandas-150458.svg?logo=pandas&style=popout&logoColor=white" />
 	<img alt="Docker" src="https://img.shields.io/badge/-Docker-2496ED.svg?logo=docker&style=popout&logoColor=white" />
-	<img alt="AWS" src="https://img.shields.io/badge/-AWS-232F3E.svg?logo=aws&style=popout&logoColor=white" />
+	<img alt="AWS" src="https://img.shields.io/badge/-AWS-232F3E.svg?logo=amazonaws&style=popout&logoColor=white" />
 </p>
 
 ## 職務経歴詳細
