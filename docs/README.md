@@ -6,7 +6,7 @@
 |:---:|:------|
 | 氏名 | 佐藤 壮一（Soichi Sato） |
 | 生年月日 | 1989-01-21 |
-| 居住地 | 東京都 |
+| 居住地 | 秋田県 |
 | 出身地 | 青森県 |
 | 最終学歴 | 東北大学大学院工学研究科通信工学専攻 |
 
@@ -18,6 +18,18 @@
 <a href="https://qiita.com/Soh1121" target="_blank"><img alt="Qiita" src="https://img.shields.io/badge/-Soh1121-55C500.svg?&logo=qiita&style=popout&logoColor=white" /></a>
 <a href="https://zenn.dev/soh1121" target="_blank"><img alt="Zenn" src="https://img.shields.io/badge/-soh1121-3EA8FF.svg?&logo=zenn&style=popout&logoColor=white" /></a>
 </p>
+
+## 資格
+
+| 取得年月 | 資格名 |
+|:-------:|:------|
+| 2012年11月 | 基本情報技術者試験 合格 |
+| 2014年9月 | 第一級陸上無線技術士 取得 |
+| 2019年6月 | 応用情報技術者試験 合格 |
+| 2019年12月 | AWS Certified Cloud Practitioner 合格（失効） |
+| 2020年3月 | AW㻿 Certified 㻿olution Architect - Associate 合格（失効） |
+| 2021年3月 | AWS Certified Developer - Associate 合格（失効） |
+| 2024年12月 | 情報処理安全確保支援士試験 合格 |
 
 ## 保有スキル
 
@@ -34,6 +46,7 @@
 
 <p>
 	<img alt="PHP" src="https://img.shields.io/badge/-PHP-777BB4.svg?logo=php&style=popout&logoColor=white" />
+	<img alt="Go" src="https://img.shields.io/badge/-Go-555.svg?logo=go&style=flat" />
 	<img alt="Python" src="https://img.shields.io/badge/-Python-3776AB.svg?logo=python&style=popout&logoColor=white" />
 	<img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E.svg?logo=javascript&style=popout&logoColor=white" />
 </p>
