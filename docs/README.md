@@ -67,6 +67,75 @@
 宅配クリーニングサービスにおいて、クリーニング工場で使用するWebシステムの開発・運用・保守に従事。  
 注文を受け付ける際の最適な工場の割り当てや、クリーニング・保管・発送工程における管理機能の開発が主な担当業務。  
 
+#### PHPバージョンアッププロジェクト【2023/05〜2025/03】
+
+##### 概要
+
+PHP 7.4・Laravel 6からPHP 8.2・Laravel 10へバージョンアップするプロジェクト。  
+バージョンアップに伴い、abandonedとなったパッケージの移行や非同期処理基盤の構築も行った。
+
+##### 体制
+
+メンバーの1人として参画。
+
+- EM：1名
+- プロジェクトリーダー：1名
+- メンバー：3名
+- 業務委託：3名
+
+##### 使用技術
+
+- PHP（7.4・8.2）
+	- PHPStan
+- Go（1.24）
+	- gomock
+	- golangcli-lint
+	- air
+- GCP
+	- Cloud Run
+	- Cloud Run Jobs
+	- Cloud Run Functions
+	- FireStore
+	- Cloud Storage
+	- Cloud Build
+	- Cloud Deploy
+	- Pub/Sub
+	- Eventarc
+	- Workflows
+	- Cloud Scheduler
+	- Cloud Logging
+	- Cloud Monitoring
+	- Cloud Trace
+	- IAM
+- Terraform
+
+##### 担当業務
+
+- PHPStanのカスタムルールの作成
+	- 非互換な変更をPHPStanを用いて検出
+- 非互換な変更の修正対応
+	- PHPStanにより検出されたものを修正
+	- 型推論が機能せず疑陽性となった部分は型宣言・型情報を追加
+	- 実際に非互換な変更により動かなく部分はリファクタリングを実施
+- [`laravelcollective/html`](https://packagist.org/packages/laravelcollective/html) から [`spatie/laravel-html`](https://packagist.org/packages/spatie/laravel-html) への移行
+	- 対象箇所：約1,700箇所
+	- 移行ツール [SHIFT](https://laravelshift.com/convert-laravelcollective-html-to-spatie-laravel-html) を使用した移行
+	- 移行できなかった部分の修正
+	- 意図しない形へ書き換えられていた部分の修正
+- 非同期処理基盤の構築
+	- 主にレビュアーとしてGoでの実装のレビュー、Terraformのレビューを実施
+	- 部分的にGCPリソースの作成、実装の修正も担当
+	- 処理状況をクライアント側で確認する検索画面の作成
+- 業務委託のハンドリング
+	- 非互換な変更の修正対応の指示出し・レビュー
+	- 修正方針の検討・調整
+
+##### 工夫した点
+
+- ツールによる一括変換により大幅な時間短縮を図るとともに、意図しない変換を精査し、短時間で一定の品質でパッケージを移行した
+- Terraformの知見が少なかったが、基礎をキャッチアップしてから取り組むことでレビュー品質の向上につながった
+- ドキュメントを整えることで、外注メンバーとの連携・レビュー体制を整備し、全体の開発効率・品質を両立した
+
 ### 株式会社ラクス（株式会社ラクスライトクラウド出向）【2022/01〜2023/04】
 
 メール配信エンジンSaaSのblastengineにおいて、アカウント情報管理APIの開発・運用・保守に従事。  
