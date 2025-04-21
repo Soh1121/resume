@@ -117,7 +117,7 @@ PHP7.4・Laravel6からPHP8.2・Laravel10へバージョンアップするプロ
 	- PHPStanにより検出されたものを修正
 	- 型推論が機能せず疑陽性となった部分は肩宣言・型情報を追加
 	- 実際に非互換な変更により動かなく部分はリファクタリングを実施
-- `[laravelcollective/html](https://packagist.org/packages/laravelcollective/html)` から `[spatie/laravel-html](https://packagist.org/packages/spatie/laravel-html)` への移行
+- [`laravelcollective/html`](https://packagist.org/packages/laravelcollective/html) から [`spatie/laravel-html`](https://packagist.org/packages/spatie/laravel-html) への移行
 	- 対象箇所：約1,700箇所
 	- 移行ツール [SHIFT](https://laravelshift.com/convert-laravelcollective-html-to-spatie-laravel-html) を使用した移行
 	- 移行できなかった部分の修正
